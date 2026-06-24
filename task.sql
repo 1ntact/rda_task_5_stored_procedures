@@ -9,5 +9,3 @@ BEGIN
     WHERE ProductInventory.WarehouseID = WarehouseID;
 END //
 DELIMITER ;
-
-CALL get_warehouse_product_inventory(1);
